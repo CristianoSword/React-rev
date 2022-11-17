@@ -11,4 +11,16 @@ function pag() {
   return <Caps> object json text</Caps>
 }
 
- export default pag;
+function Cont() {
+    function addCont() {
+        console.log("add");
+    }
+    return <div>
+        <div>1</div>
+        <button onClick={addCont}>add</button>
+        <br/><br/>
+        <Caps> object json text</Caps>
+    </div>
+}
+
+ export default Cont;
